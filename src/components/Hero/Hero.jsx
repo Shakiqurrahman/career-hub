@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css'
 import { Link } from 'react-router-dom';
-import heroImg from '/src/assets/All Images/hero-img.png'
+import heroImg from '/assets/All Images/hero-img.png'
 
 const Hero = () => {
     return (

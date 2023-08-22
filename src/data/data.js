@@ -5,7 +5,7 @@
 const featuredJobsData = [
   {
     id: 1,
-    img: "/src/assets/Logo/google-1.png",
+    img: "/assets/Logo/google-1.png",
     title: "Technical Database Engineer",
     company: "Google LLC",
     firstBtn: "Remote",
@@ -29,7 +29,7 @@ const featuredJobsData = [
   },
   {
     id: 2,
-    img: "/src/assets/Logo/netflix.png",
+    img: "/assets/Logo/netflix.png",
     title: "Senior Product Designer",
     company: "Netflix",
     firstBtn: "Onsite",
@@ -49,7 +49,7 @@ const featuredJobsData = [
   },
   {
     id: 3,
-    img: "/src/assets/Logo/tesla.png",
+    img: "/assets/Logo/tesla.png",
     title: "Software Engineer",
     company: "Tesla",
     firstBtn: "Onsite",
@@ -70,7 +70,7 @@ const featuredJobsData = [
   },
   {
     id: 4,
-    img: "/src/assets/Logo/google-2.png",
+    img: "/assets/Logo/google-2.png",
     title: "Technical Database Engineer",
     company: "Google LLC",
     firstBtn: "Remote",

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
-import logo from "/src/assets/All Images/CareerHub.png";
+import logo from "/assets/All Images/CareerHub.png";
 
 const Header = () => {
   return (
