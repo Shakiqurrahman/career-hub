@@ -44,7 +44,7 @@ const JobDetails = () => {
               <p className="flex">
                 <span className="title flex">
                   <RiMoneyDollarCircleLine className="icon" />
-                  Salary :{" "}
+                  Salary :
                 </span>
                 {detail.salary} (Per Month)
               </p>
@@ -63,7 +63,7 @@ const JobDetails = () => {
               <p className="flex">
                 <span className="title flex">
                   <IoLocationOutline className="icon" />
-                  Address :{" "}
+                  Address :
                 </span>
                 Dhanmondi 32, Sukrabad
               </p>
