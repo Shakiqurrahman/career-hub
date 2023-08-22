@@ -9,6 +9,7 @@ import JobDetails from './components/JobDetails/JobDetails';
 import { ToastContainer } from 'react-toastify';
 import { JobContextProvider } from './contexts/jobContext';
 import AppliedJob from './pages/AppliedJob/AppliedJob';
+import ErrorPage from './pages/ErrorPage/ErrorPage';
 
 
 const router = createBrowserRouter([
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
   },
   {
     path: '*',
-    element: <div><h2>This page is not available, Please Enter your right path!</h2></div>
+    element: <ErrorPage />
   }
 ])
 

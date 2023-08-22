@@ -18,7 +18,7 @@ const Header = () => {
             <NavLink to="/applied-job">Applied Job</NavLink>
           </li>
           <li>
-            <NavLink to="/about">Blog</NavLink>
+            <NavLink to="/blog">Blog</NavLink>
           </li>
         </ul>
       </nav>

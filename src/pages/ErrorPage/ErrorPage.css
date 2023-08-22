@@ -1,0 +1,41 @@
+.error-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-title {
+  font-size: 5rem;
+}
+.error-page p {
+  font-size: 1.8rem;
+}
+
+.error-page .btn {
+  color: white;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+.error-page .error-btn:hover {
+    color: #0989ff;
+    background-color: #fff;
+    border: 2px solid #0989ff;
+}
+
+.error-btn .arrow-icon {
+  margin-left: 1rem;
+}
+
+.error-page img {
+  width: 30%;
+}
+
+@media (576px >= width) {
+  .error-page img {
+    width: 80%;
+  }
+}
