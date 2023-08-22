@@ -1,0 +1,26 @@
+.header {
+    background-color: #F4F4F4;
+    padding: 20px 8% 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-links {
+    display: flex;
+}
+
+.navbar .nav-links li a{
+    margin-right: 40px;
+    font-size: 1.8rem;
+    transition: .5s;
+}
+
+.navbar .nav-links li:hover a{
+    color: #7E90FE;
+}
+
+.header .btn {
+    border: 2px solid black;
+}
+

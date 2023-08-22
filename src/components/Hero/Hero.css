@@ -1,0 +1,43 @@
+.hero {
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero.container {
+    padding-top: 4rem;
+    padding-bottom: 0;
+}
+
+.hero .content {
+    width: 50%;
+}
+
+.hero .content .title {
+    font-size: 6.5rem; 
+    line-height: 1.2; 
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.hero .content .title span {
+    color: #7E90FE;
+}
+
+.hero .content p {
+    font-size: 1.6rem;
+    color: #757575;
+    margin-bottom: 3rem;
+}
+
+.hero .hero-img {
+    width: 50%;
+    overflow: hidden;
+}
+
+.hero .hero-img img{
+    width: 100%;
+    position: relative;
+    top: .5rem;
+}

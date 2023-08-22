@@ -1,0 +1,33 @@
+.category .job-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.category .job-box {
+    width: 28rem;
+    height: 23rem;
+    background-color: #FAF9FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.category .job-box .img {
+    background-color: #F4F4F4;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.category .job-box h3 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.category .job-box p {
+    font-size: 1.4rem;
+    color: #A3A3A3;
+}

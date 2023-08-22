@@ -1,0 +1,129 @@
+.banner {
+    background-color: #F4F4F4;
+    height: 255px;
+    position: relative;
+}
+
+.shape-1 {
+    background-image: url('/src//assets//All Images/Vector-1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:  100px 120px;
+    z-index: 1;
+
+}
+
+.job-details .b-title {
+    padding: 100px 0;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.shape-2 {
+    background-image: url('/src//assets//All Images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: absolute;
+    bottom: 0;
+    padding:  200px;
+}
+
+.job-details .details {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details p{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    color: #757575;
+}
+
+.details p:last-child {
+    margin-bottom: 0;
+}
+
+.details .title{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #1A1919;
+    margin-right: 5px;
+}
+
+.details .left-details {
+    width: 60%;
+    margin-right: 8rem;
+}
+
+.details .left-details p {
+    text-align: justify;
+}
+
+.details .card {
+    background-color: #F4F4F4;
+    padding: 35px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.details .card h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e6e5e5;
+    margin-bottom: 1rem;
+}
+
+.details .card p {
+    margin-bottom: 1rem;
+}
+
+.details .card p:last-child{
+    margin-bottom: 0;
+}
+
+.details .card .card-details {
+    margin-bottom: 2rem;
+}
+
+.details .card .icon {
+    color: #7E90FE;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.details .details-card .apply-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: #7E90FE;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.details .details-card .apply-btn:hover {
+    color: #7E90FE;
+    background-color: #fff;
+    border: 2px solid #7E90FE;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.title.flex {
+    margin-bottom: 0;
+}
+
+.address{
+    margin-left: 30px;
+    margin-top: -8px !important;
+}

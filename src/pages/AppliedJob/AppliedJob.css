@@ -1,0 +1,110 @@
+.banner {
+    background-color: #F4F4F4;
+    height: 255px;
+    position: relative;
+}
+
+.shape-1 {
+    background-image: url('/src//assets//All Images/Vector-1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:  100px 120px;
+    z-index: 1;
+
+}
+
+.b-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 185px;
+    font-size: 3.5rem;
+    font-weight: 600;  
+    
+}
+
+.shape-2 {
+    background-image: url('/src//assets//All Images/Vector.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    position: absolute;
+    bottom: 0;
+    padding:  200px;
+}
+
+.applied-jobs {
+    margin: 8rem 0;
+}
+
+.applied-jobs .no-job{
+    font-size: 3.5rem;
+    text-align: center;
+    color: #7E90FE;
+}
+
+.cards {
+    margin-bottom: 2rem;
+}
+
+.cards .card{
+    padding: 3rem;
+    border: 2px solid #E8E8E8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards .card .left-side{
+    display: flex;
+    align-items: center;
+}
+
+.cards .card .left-side .card-img {
+    background-color: #F4F4F4;
+    width: 22rem;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 3.5rem;
+}
+
+.cards .card .left-side .card-img img {
+    padding: 3rem;
+    width: 100%;
+}
+
+.cards .card .left-side .card-info .title {
+    font-size: 2rem;
+    color: #474747;
+    margin-bottom: 8px;
+}
+
+.cards .card .left-side .card-info .sub-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #474747;
+    margin-bottom: 15px;
+}
+
+.cards .card .left-side .card-info .info {
+    margin-top: .5rem;
+    display: flex;
+}
+
+.cards .card .left-side .card-info .info p {
+    font-size: 1.6rem;
+    color: #474747;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.cards .card .right-side button{
+    color: #fff;
+}
+
